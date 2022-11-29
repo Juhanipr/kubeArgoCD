@@ -183,11 +183,11 @@ spec:
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: logging-logmower-shipper
+  name: logging-logmower-shipper-juhani
 subjects:
   - kind: ServiceAccount
     name: logmower-shipper
-    namespace: logmower
+    namespace: juhanigithub-ff8sf
 roleRef:
   kind: ClusterRole
   name: filebeat
